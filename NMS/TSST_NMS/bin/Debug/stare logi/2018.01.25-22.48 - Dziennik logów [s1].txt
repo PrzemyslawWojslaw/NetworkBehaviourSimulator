@@ -1,0 +1,36 @@
+Dziennik logów domeny "s1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 22:46.17.2565  >>>  Uruchomiono węzeł sterujący domeny "s1".
+2018.01.25 - 22:46.17.2755  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 22:46.26.1794  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.26.5652  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.25 - 22:46.26.5687  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.25 - 22:46.26.8489  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.27.2191  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.25 - 22:46.28.3995  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.25 - 22:46.30.1702  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.31.3531  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.25 - 22:46.31.3571  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.25 - 22:47.02.8580  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 2 oraz 1.
+	Szczeliny: 0-1
+2018.01.25 - 22:47.02.8715  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 2 oraz 1.
+2018.01.25 - 22:47.02.8950  >>>  Ścieżka: r4=3|0|1|
+r5=2|0|1|1
+r6=r4|0|1
+
+2018.01.25 - 22:47.02.8985  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.25 - 22:47.02.9055  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 0 oraz 1 ścieżką otrzymaną od RC.
+2018.01.25 - 22:47.02.9155  >>>  Urządzeniu "r4" przesłano wiadomość:
+2018.01.25 - 22:47.02.9160  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 22:47.02.9275  >>>  Wysłano głównemu węzłowi wiadomość:
+	SubYupNMS|2|0|1|1
+2018.01.25 - 22:47.02.9480  >>>  Urządzeniu "r6" przesłano wiadomość:
+Add|3|0|1|1
+2018.01.25 - 22:47.03.3448  >>>  Urządzeniu "r5" przesłano wiadomość:
+Add|3|0|1|1
+Add|2|0|1|1
+2018.01.25 - 22:48.49.8100  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 22:48.49.8100  >>> Wyłączono NMS.

@@ -1,0 +1,6 @@
+Dziennik logów domeny "d2" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:38.52.0802  >>>  Uruchomiono NMS domeny "d2".
+2018.01.21 - 23:38.52.0958  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:38.59.1276  >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:38.59.1276  >>> Wyłączono NMS.

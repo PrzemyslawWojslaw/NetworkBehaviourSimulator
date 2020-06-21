@@ -1,0 +1,74 @@
+Dziennik logów domeny "d1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 19:42.15.3367  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.25 - 19:42.15.5389  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 19:42.17.2036  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.17.2636  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|s1
+2018.01.25 - 19:42.17.3357  >>>  Urządzenie przedstawiło się jako: "s1".
+2018.01.25 - 19:42.19.3396  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.19.4542  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.25 - 19:42.19.5397  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.25 - 19:42.19.9095  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.19.9490  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.25 - 19:42.19.9520  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.25 - 19:42.20.1422  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.20.3008  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.25 - 19:42.20.3093  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.25 - 19:42.21.2554  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.21.4746  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.25 - 19:42.21.4796  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.25 - 19:42.22.6394  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.22.9557  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.25 - 19:42.22.9612  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.25 - 19:42.39.0181  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.40.3165  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.25 - 19:42.41.0085  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.25 - 19:42.55.1370  >>>  Od urządenia "d2" otrzymano wiadomość:
+	CallCoordination|d2|1|d1|2|c1|25 Gbit/s
+2018.01.25 - 19:42.56.0577  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d2". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 2
+	Użytkownik docelowy: c1, Przepustowość: 25 Gbit/s
+2018.01.25 - 19:42.56.0787  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.25 - 19:42.56.0857  >>>  D -> NCC : Adres użytkownika docelowego ("c1") to 1101.
+2018.01.25 - 19:42.56.0942  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d2" z powyższymi parametrami.
+2018.01.25 - 19:42.56.1037  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d2".
+2018.01.25 - 19:42.56.1142  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d2".
+2018.01.25 - 19:42.56.1583  >>>  Ścieżka: 	c1===1|0|1|
+	r1===3|0|1|1
+	s1===2|0|1|1
+	r3===c1|0|1
+
+2018.01.25 - 19:42.56.1613  >>>  RC -> CC : Odnaleziono ścieżkę.
+	r3 -> s1 -> r1 -> c1
+2018.01.25 - 19:42.56.1858  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 2 oraz użytkownikiem "c1" ścieżką otrzymaną od RC.
+2018.01.25 - 19:42.56.2248  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 19:42.56.2408  >>>  Urządzeniu "d2" przesłano wiadomość:
+	ExYupNMS|d2|1|d1|2
+2018.01.25 - 19:42.56.2493  >>>  BŁĄD! Otrzymano od urządzenia "d2" wiadomość nieznanego typu!
+2018.01.25 - 19:42.56.2528  >>>  Od urządenia "d2" otrzymano wiadomość:
+	Add|2|0|1|1
+2018.01.25 - 19:42.56.2593  >>>  BŁĄD! Otrzymano od urządzenia "d2" wiadomość nieznanego typu!
+2018.01.25 - 19:42.56.6226  >>>  Urządzeniu "c1" przesłano wiadomość:
+2018.01.25 - 19:42.56.6631  >>>  Urządzeniu "r3" przesłano wiadomość:
+Add|1|0|1|
+2018.01.25 - 19:42.56.6676  >>>  Urządzeniu "r1" przesłano wiadomość:
+2018.01.25 - 19:42.56.6681  >>>  Urządzeniu "s1" przesłano wiadomość:
+Add|3|0|1|1
+Add|2|0|1|1
+CallAccept|c2
+2018.01.25 - 19:42.57.6753  >>>  Od urządenia "s1" otrzymano wiadomość:
+	SubYupNMS|2|0|1|1
+2018.01.25 - 19:42.58.5865  >>>  BŁĄD! Otrzymano od innego systemu zarządzania wiadomość nieznanego typu!
+	SubYupNMS|2|0|1|1
+2018.01.25 - 19:42.59.7838  >>>  Urządzeniu "s1" przesłano wiadomość:
+	Error|d1|Otrzymano od innego węzła zarządzania wiadomość nieznanego typu!
+2018.01.25 - 19:42.59.7919  >>>  BŁĄD! Otrzymano od urządzenia "s1" wiadomość nieznanego typu!
+2018.01.25 - 19:43.51.5466  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 19:43.51.5466  >>> Wyłączono NMS.

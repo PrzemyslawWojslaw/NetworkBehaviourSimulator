@@ -1,0 +1,105 @@
+Dziennik logów domeny "d2" z dnia 25.01.2018
+=====================================
+2018.01.25 - 23:28.09.4376  >>>  Uruchomiono węzeł sterujący domeny "d2".
+2018.01.25 - 23:28.09.5878  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 23:28.19.5083  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:28.19.8616  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:28.19.8666  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.25 - 23:28.19.8696  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.25 - 23:28.20.2608  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.25 - 23:28.20.7087  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.25 - 23:28.22.8637  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:28.23.2895  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.25 - 23:28.24.0015  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.25 - 23:28.24.1726  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:28.24.8236  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.25 - 23:28.25.7537  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.25 - 23:28.50.3357  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 25 Gbit/s
+2018.01.25 - 23:28.50.7495  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.25 - 23:28.50.7550  >>>  D -> NCC : Adres użytkownika docelowego ("c2") to 2101.
+2018.01.25 - 23:28.50.7610  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.25 - 23:28.50.7690  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.25 - 23:28.50.7775  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.25 - 23:28.51.2038  >>>  Ścieżka: 	c2===1|0|1|
+	r9===1|0|1|3
+	r7===c2|0|1
+
+2018.01.25 - 23:28.51.6617  >>>  RC -> CC : Odnaleziono ścieżkę.
+	r7 -> r9 -> c2
+2018.01.25 - 23:28.51.6902  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.25 - 23:28.51.7042  >>>  Urządzeniu "r9" przesłano wiadomość:
+2018.01.25 - 23:28.51.7052  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+Add|1|0|1|3
+2018.01.25 - 23:28.51.7207  >>>  Wysłano głównemu węzłowi wiadomość:
+	ExYupNMS|d1|1|d2|1
+2018.01.25 - 23:28.51.8643  >>>  Urządzeniu "r7" przesłano wiadomość:
+Add|1|0|1|2
+2018.01.25 - 23:28.52.0695  >>>  Urządzeniu "c2" przesłano wiadomość:
+CallAccept|c1
+2018.01.25 - 23:33.22.5563  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.22.7564  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.0091  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.0121  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.0156  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.0191  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.0231  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2317  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2367  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2407  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2447  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2487  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2528  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2568  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2613  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2728  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2783  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2833  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2878  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2928  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.2978  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.4759  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.4809  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.4864  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.4914  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.4969  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5054  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5109  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5164  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5224  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5279  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5345  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5410  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5470  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5535  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5600  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5710  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5775  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5850  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.5915  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6015  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6085  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6155  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6240  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6490  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6565  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6650  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6736  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6821  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6896  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.6971  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.7116  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.7196  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.7281  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.7376  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.7461  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.23.7541  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.24.4811  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.24.4891  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 23:33.24.4996  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 23:33.24.4996  >>> Wyłączono NMS.

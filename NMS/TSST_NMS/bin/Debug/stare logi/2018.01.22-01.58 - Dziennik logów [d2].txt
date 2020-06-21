@@ -1,0 +1,34 @@
+Dziennik logów domeny "d2" z dnia 22.01.2018
+=====================================
+2018.01.22 - 01:57.01.3570  >>>  Uruchomiono NMS domeny "d2".
+2018.01.22 - 01:57.01.3570  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 01:57.11.6959  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.12.2968  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.22 - 01:57.12.2998  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.22 - 01:57.12.9423  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.13.8159  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.22 - 01:57.14.2102  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.22 - 01:57.14.9447  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.16.0835  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.22 - 01:57.16.5488  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.22 - 01:57.38.3989  >>>  NCC : Otrzymano żądanie zestawienia połączenia od domeny "d1". Parametry:
+	ID routera brzegowego wejściowego: 1, ID routera brzegowego wyjściowego: 2
+	Przepustowość: 75 Gbit/s
+2018.01.22 - 01:57.38.8507  >>>  NCC -> CC : Żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 01:57.38.8557  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 01:57.38.9447  >>>  Ścieżka: r6=Add|1|0|2|
+r5=Add|1|0|2|2
+r4=Add|c2|0|2
+
+2018.01.22 - 01:57.38.9477  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 01:57.38.9568  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 1 oraz 2 ścieżką otrzymaną od RC.
+2018.01.22 - 01:57.38.9688  >>>  Wyjątek w komuniakcji z głównym systemem zarządzania w domenie "d2": Specified argument was out of the range of valid values.
+Parameter name: index
+2018.01.22 - 01:57.38.9713  >>>  Odłączono główny system zarządzania!
+2018.01.22 - 01:57.39.3841  >>>  Urządzeniu "r5" przesłano wiadomość:
+Add|1|0|2|2
+2018.01.22 - 01:58.10.9375  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 01:58.10.9375  >>> Wyłączono NMS.

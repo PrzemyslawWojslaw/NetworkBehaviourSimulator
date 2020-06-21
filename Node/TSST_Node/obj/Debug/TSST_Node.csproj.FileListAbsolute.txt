@@ -1,0 +1,10 @@
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.csprojResolveAssemblyReference.cache
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.Properties.Resources.resources
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.csproj.GenerateResource.Cache
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.csproj.CoreCompileInputs.cache
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\bin\Debug\TSST_Node.exe.config
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\bin\Debug\TSST_Node.exe
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\bin\Debug\TSST_Node.pdb
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.exe
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.pdb
+B:\STUDIA\Programy\byVisual\TSST_Node\TSST_Node\obj\Debug\TSST_Node.nodeForm.resources

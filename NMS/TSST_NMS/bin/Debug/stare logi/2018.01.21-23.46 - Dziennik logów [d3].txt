@@ -1,0 +1,41 @@
+Dziennik logów domeny "d3" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:45.12.3837  >>>  Uruchomiono NMS domeny "d3".
+2018.01.21 - 23:45.12.4583  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:45.26.3261  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:45.27.0952  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.21 - 23:45.27.0987  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.21 - 23:45.32.9613  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:45.34.0996  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.21 - 23:45.34.1041  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.21 - 23:45.34.7936  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:45.35.9615  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.21 - 23:45.35.9660  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.21 - 23:45.36.3938  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:45.37.2689  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.21 - 23:45.37.2729  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.21 - 23:45.47.8349  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 25 Gbit/s
+2018.01.21 - 23:45.49.6217  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.21 - 23:45.51.6791  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.21 - 23:45.52.1139  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.21 - 23:45.52.4782  >>>  Ścieżka: r9=Add|3|0|0|2
+r8=Add|2|0|0|1
+c=Add|r7|0|0
+
+2018.01.21 - 23:45.53.2933  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.21 - 23:45.54.1254  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.21 - 23:45.54.1429  >>>  Urządzeniu "r9" przesłano wiadomość:
+2018.01.21 - 23:45.54.1429  >>>  Wyjątek w komuniakcji z głównym systemem zarządzania w domenie "d3": The given key was not present in the dictionary.
+2018.01.21 - 23:45.54.1479  >>>  Odłączono główny system zarządzania!
+Add|3|0|0|2
+2018.01.21 - 23:45.54.1634  >>>  Urządzeniu "r8" przesłano wiadomość:
+Add|2|0|0|1
+2018.01.21 - 23:46.10.4264  >>>  Rozłączono klienta "c2".
+2018.01.21 - 23:46.15.6011  >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:46.15.6011  >>> Wyłączono NMS.

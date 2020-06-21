@@ -1,0 +1,75 @@
+Dziennik logów domeny "d1" z dnia 26.01.2018
+=====================================
+2018.01.26 - 11:55.39.9084  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.26 - 11:55.39.9240  >>>  Włączono nasłuchiwanie.
+2018.01.26 - 11:55.40.2677  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:55.40.2833  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|s1
+2018.01.26 - 11:55.40.2990  >>>  Urządzenie przedstawiło się jako: "s1".
+2018.01.26 - 11:55.41.5947  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:55.41.6082  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.26 - 11:55.41.6112  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.26 - 11:55.42.7175  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:55.42.7685  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.26 - 11:55.42.8546  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.26 - 11:55.44.8535  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:55.45.0967  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.26 - 11:55.45.1012  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.26 - 11:55.46.9730  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:55.47.3918  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.26 - 11:55.47.3963  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.26 - 11:55.50.3294  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:55.50.9849  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.26 - 11:55.50.9909  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.26 - 11:56.29.0194  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:56.30.2598  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.26 - 11:56.30.2648  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.26 - 11:57.12.8826  >>>  Od urządenia "d2" otrzymano wiadomość:
+	CallCoordination|d2|1|d1|2|c1|25 Gbit/s
+2018.01.26 - 11:57.13.3950  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d2". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 2
+	Użytkownik docelowy: c1, Przepustowość: 25 Gbit/s
+2018.01.26 - 11:57.13.4145  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.26 - 11:57.13.4345  >>>  D -> NCC : Adres użytkownika docelowego ("c1") to 1101.
+2018.01.26 - 11:57.13.4420  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d2" z powyższymi parametrami.
+2018.01.26 - 11:57.13.4505  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d2".
+2018.01.26 - 11:57.13.4605  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d2".
+2018.01.26 - 11:57.13.7972  >>>  Ścieżka: 	c1===1|0|1|
+	r1===3|0|1|1
+	s1===2|0|1|1
+	r3===c1|0|1
+
+2018.01.26 - 11:57.14.2155  >>>  RC -> CC : Odnaleziono ścieżkę.
+	r3 -> s1 -> r1 -> c1
+2018.01.26 - 11:57.15.0792  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 2 oraz użytkownikiem "c1" ścieżką otrzymaną od RC.
+2018.01.26 - 11:57.15.4519  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.26 - 11:57.15.4519  >>>  Urządzeniu "s1" przesłano wiadomość:
+	s1::Add|2|0|1|1
+2018.01.26 - 11:57.15.4729  >>>  Urządzeniu "r3" przesłano wiadomość:
+	r3::Add|2|0|1|3
+2018.01.26 - 11:57.15.6391  >>>  Urządzeniu "r1" przesłano wiadomość:
+2018.01.26 - 11:57.15.7867  >>>  Urządzeniu "d2" przesłano wiadomość:
+2018.01.26 - 11:57.15.8192  >>>  Urządzeniu "c1" przesłano wiadomość:
+	c1::CallAccept|c2
+	r1::Add|3|0|1|1
+	ExYupNMS|d2|1|d1|2
+2018.01.26 - 11:57.16.2580  >>>  Od urządenia "d2" otrzymano wiadomość:
+	Add|2|0|1|1
+2018.01.26 - 11:57.17.8546  >>>  Od urządenia "s1" otrzymano wiadomość:
+	SubYupNMS|2|0|1|1
+2018.01.26 - 11:57.28.9460  >>>  Od urządenia "d2" otrzymano wiadomość:
+	Remove|2|0|1|1
+2018.01.26 - 11:57.29.8216  >>>  NCC : CallTeardown() - Otrzymano żądanie rozłączenia połączenia od węzła sterującego domeny "d2".
+2018.01.26 - 11:57.29.8982  >>>  NCC -> CC : CallTeardown() - Przesłano żądanie rozłączenia połączenia. Parametry:
+	ID węzła wejściowego = 2, ID węzła wyjściowego = 1
+	Szczeliny = 0-1
+2018.01.26 - 11:57.30.3675  >>>  CC -> LRM : Żądanie dealokacji zasobów połączenia o parametrach:
+	Użytkownik początkowy = "r3", użytkownik końcowy = r1
+2018.01.26 - 11:58.52.4099  >>> Wyłączono nasłuchiwanie.
+2018.01.26 - 11:58.52.4099  >>> Wyłączono NMS.

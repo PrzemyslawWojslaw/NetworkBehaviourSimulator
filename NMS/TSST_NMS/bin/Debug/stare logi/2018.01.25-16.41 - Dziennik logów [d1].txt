@@ -1,0 +1,33 @@
+Dziennik logów domeny "d1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 16:41.10.8312  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.25 - 16:41.10.8622  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 16:41.16.2194  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.16.2351  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|s1
+2018.01.25 - 16:41.16.2507  >>>  Urządzenie przedstawiło się jako: "s1".
+2018.01.25 - 16:41.17.4016  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.17.4136  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.25 - 16:41.17.4186  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.25 - 16:41.18.4598  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.18.5699  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.25 - 16:41.18.5744  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.25 - 16:41.19.5766  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.20.0250  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.25 - 16:41.20.0295  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.25 - 16:41.20.7765  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.21.4039  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.25 - 16:41.21.4084  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.25 - 16:41.21.9538  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.22.7339  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.25 - 16:41.22.7399  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.25 - 16:41.30.4789  >>>  Wyjątek w komuniakcji z klientem "s1": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 16:41.30.9307  >>>  Rozłączono klienta "s1".
+2018.01.25 - 16:41.32.1731  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:41.33.5376  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 16:41.33.5376  >>> Wyłączono NMS.

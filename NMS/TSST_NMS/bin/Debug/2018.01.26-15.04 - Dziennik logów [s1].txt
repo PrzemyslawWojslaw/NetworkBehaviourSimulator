@@ -1,0 +1,72 @@
+Dziennik logów domeny "s1" z dnia 26.01.2018
+=====================================
+2018.01.26 - 15:01.41.3502  >>>  Uruchomiono węzeł sterujący domeny "s1".
+2018.01.26 - 15:01.41.3659  >>>  Włączono nasłuchiwanie.
+2018.01.26 - 15:01.50.0214  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 15:01.50.6283  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.26 - 15:01.50.7959  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.26 - 15:01.51.0051  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 15:01.51.6375  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.26 - 15:01.52.3801  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.26 - 15:01.53.9557  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 15:01.54.5996  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.26 - 15:01.54.8994  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.26 - 15:02.15.5365  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+	Szczeliny: 0-1
+2018.01.26 - 15:02.16.3276  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.26 - 15:02.16.3496  >>>  Ścieżka: r6=1|0|1|
+r5=1|0|1|2
+r4=r6|0|1
+
+2018.01.26 - 15:02.16.3521  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.26 - 15:02.16.3626  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 0 oraz 1 ścieżką otrzymaną od RC.
+2018.01.26 - 15:02.16.3726  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.26 - 15:02.16.3751  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.26 - 15:02.16.3786  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.26 - 15:02.16.3901  >>>  Wysłano głównemu węzłowi wiadomość:
+	r6::Add|1|0|1|3
+	SubYupNMS|1|0|1|2
+2018.01.26 - 15:02.16.4021  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r5::Add|1|0|1|2
+	r4::Add|1|0|1|3
+2018.01.26 - 15:02.30.1549  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+	Szczeliny: 2-3
+2018.01.26 - 15:02.30.9590  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.26 - 15:02.30.9695  >>>  Ścieżka: r6=1|2|3|
+r5=1|2|3|2
+r4=r6|2|3
+
+2018.01.26 - 15:02.30.9725  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.26 - 15:02.30.9840  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 2 oraz 3 ścieżką otrzymaną od RC.
+2018.01.26 - 15:02.31.3668  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.26 - 15:02.31.3668  >>>  Urządzeniu "r4" przesłano wiadomość:
+2018.01.26 - 15:02.31.3813  >>>  Wysłano głównemu węzłowi wiadomość:
+	r4::Add|1|2|3|3
+	SubYupNMS|1|2|3|2
+2018.01.26 - 15:02.31.7941  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.26 - 15:02.31.8021  >>>  Urządzeniu "r5" przesłano wiadomość:
+	r5::Add|1|2|3|2
+	r6::Add|1|2|3|3
+2018.01.26 - 15:02.47.1935  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 2 oraz 1.
+	Szczeliny: 4-5
+2018.01.26 - 15:02.47.2251  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 2 oraz 1.
+2018.01.26 - 15:02.47.2576  >>>  Ścieżka: r4=3|4|5|
+r5=2|4|5|1
+r6=r4|4|5
+
+2018.01.26 - 15:02.47.2611  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.26 - 15:02.47.2796  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 4 oraz 5 ścieżką otrzymaną od RC.
+2018.01.26 - 15:02.47.2981  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.26 - 15:02.47.3166  >>>  Wysłano głównemu węzłowi wiadomość:
+	SubYupNMS|2|4|5|1
+2018.01.26 - 15:02.47.6724  >>>  Urządzeniu "r5" przesłano wiadomość:
+	r5::Add|2|4|5|1
+2018.01.26 - 15:02.47.7149  >>>  Urządzeniu "r6" przesłano wiadomość:
+	r6::Add|3|4|5|1
+2018.01.26 - 15:02.47.7404  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r4::Add|3|4|5|1
+2018.01.26 - 15:04.44.0446  >>> Wyłączono nasłuchiwanie.
+2018.01.26 - 15:04.44.0446  >>> Wyłączono NMS.

@@ -1,0 +1,37 @@
+Dziennik logów domeny "d2" z dnia 22.01.2018
+=====================================
+2018.01.22 - 10:22.56.3577  >>>  Uruchomiono NMS domeny "d2".
+2018.01.22 - 10:22.56.3733  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 10:23.03.5453  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 10:23.04.1247  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.22 - 10:23.04.1282  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.22 - 10:23.04.7256  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 10:23.05.0989  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.22 - 10:23.05.1024  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.22 - 10:23.06.5314  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 10:23.07.0353  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.22 - 10:23.07.5771  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.22 - 10:23.54.5505  >>>  NCC : Otrzymano żądanie zestawienia połączenia od domeny "d1". Parametry:
+	ID routera brzegowego wejściowego: 1, ID routera brzegowego wyjściowego: 2
+	Przepustowość: 50 Gbit/s
+2018.01.22 - 10:23.55.7558  >>>  NCC -> CC : Żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 10:23.56.1781  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 10:23.56.7566  >>>  Ścieżka: r6=Add|1|0|1|
+r5=Add|1|0|1|2
+r4=Add|c2|0|1
+
+2018.01.22 - 10:23.56.7601  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 10:23.56.7691  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 1 oraz 2 ścieżką otrzymaną od RC.
+2018.01.22 - 10:23.56.7816  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 10:23.56.7821  >>>  Urządzeniu "r4" przesłano wiadomość:
+Add|1|0|1|3
+2018.01.22 - 10:23.56.8251  >>>  Urządzeniu "r5" przesłano wiadomość:
+Add|1|0|1|2
+2018.01.22 - 10:23.57.2209  >>>  Urządzeniu "r6" przesłano wiadomość:
+Add|1|0|1|3
+2018.01.22 - 10:24.20.9552  >>>  Odłączono główny system zarządzania!
+2018.01.22 - 10:26.20.1664  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 10:26.20.1664  >>> Wyłączono NMS.

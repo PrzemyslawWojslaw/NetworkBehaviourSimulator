@@ -1,0 +1,18 @@
+Dziennik logów domeny "s1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 18:38.03.3856  >>>  Uruchomiono węzeł sterujący domeny "s1".
+2018.01.25 - 18:38.03.4012  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 18:38.10.2057  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 18:38.10.4303  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.25 - 18:38.10.9697  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.25 - 18:38.11.2649  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 18:38.11.6762  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.25 - 18:38.11.8148  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.25 - 18:38.13.1798  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 18:38.13.4640  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.25 - 18:38.13.8828  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.25 - 18:38.13.9033  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 18:38.13.9033  >>> Wyłączono NMS.

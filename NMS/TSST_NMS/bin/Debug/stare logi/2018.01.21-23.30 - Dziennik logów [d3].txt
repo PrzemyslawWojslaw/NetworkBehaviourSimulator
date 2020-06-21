@@ -1,0 +1,6 @@
+Dziennik logów domeny "d3" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:30.30.3373  >>>  Uruchomiono NMS domeny "d3".
+2018.01.21 - 23:30.30.3529  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:30.37.1464  >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:30.37.1464  >>> Wyłączono NMS.

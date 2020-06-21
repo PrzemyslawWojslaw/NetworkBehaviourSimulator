@@ -1,0 +1,12 @@
+Dziennik logów domeny "d3" z dnia 22.01.2018
+=====================================
+2018.01.22 - 11:58.56.3600  >>>  Uruchomiono NMS domeny "d3".
+2018.01.22 - 11:58.56.3600  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 11:59.06.1374  >>>  Wyjątek w komuniakcji z głównym systemem zarządzania w domenie "d3": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.22 - 11:59.06.2680  >>>  Odłączono główny system zarządzania!
+2018.01.22 - 11:59.06.2710  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 11:59.06.5717  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.22 - 11:59.06.5767  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.22 - 11:59.17.6711  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 11:59.17.6711  >>> Wyłączono NMS.

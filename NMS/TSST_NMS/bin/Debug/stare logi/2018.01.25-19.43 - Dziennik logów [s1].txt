@@ -1,0 +1,38 @@
+Dziennik logów domeny "s1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 19:42.16.6192  >>>  Uruchomiono węzeł sterujący domeny "s1".
+2018.01.25 - 19:42.17.1410  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 19:42.23.7938  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.24.3882  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.25 - 19:42.24.3922  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.25 - 19:42.26.2110  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.27.0200  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.25 - 19:42.27.0241  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.25 - 19:42.27.9172  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:42.28.4000  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.25 - 19:42.29.1386  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.25 - 19:42.57.0614  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 2 oraz 1.
+	Szczeliny: 0-1
+2018.01.25 - 19:42.57.0749  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 2 oraz 1.
+2018.01.25 - 19:42.57.0974  >>>  Ścieżka: r4=3|0|1|
+r5=2|0|1|1
+r6=r4|0|1
+
+2018.01.25 - 19:42.57.0994  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.25 - 19:42.57.1054  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 0 oraz 1 ścieżką otrzymaną od RC.
+2018.01.25 - 19:42.57.4712  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 19:42.57.4712  >>>  Urządzeniu "r4" przesłano wiadomość:
+2018.01.25 - 19:42.57.4842  >>>  Wysłano głównemu węzłowi wiadomość:
+Add|3|0|1|3
+	SubYupNMS|2|0|1|1
+2018.01.25 - 19:42.57.9205  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.25 - 19:42.57.9255  >>>  Urządzeniu "r5" przesłano wiadomość:
+Add|1|0|1|1
+Add|2|0|1|1
+2018.01.25 - 19:43.00.0525  >>>  UWAGA! Węzeł zarządzanie "d1" przysłał komunikat o błędzie:
+	Otrzymano od innego węzła zarządzania wiadomość nieznanego typu!
+2018.01.25 - 19:43.51.5466  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 19:43.51.5466  >>> Wyłączono NMS.

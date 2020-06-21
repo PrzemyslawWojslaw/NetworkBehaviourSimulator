@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSST_Cloud_v2", "TSST_Cloud_v2\TSST_Cloud_v2.csproj", "{07138BA2-7ECE-47CA-839A-D84079FCE633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07138BA2-7ECE-47CA-839A-D84079FCE633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07138BA2-7ECE-47CA-839A-D84079FCE633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07138BA2-7ECE-47CA-839A-D84079FCE633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07138BA2-7ECE-47CA-839A-D84079FCE633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80176AD8-7F7D-43FA-8A05-B85FA44FE00C}
+	EndGlobalSection
+EndGlobal

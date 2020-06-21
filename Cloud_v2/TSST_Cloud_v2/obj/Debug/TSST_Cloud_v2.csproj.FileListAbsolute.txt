@@ -1,0 +1,10 @@
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.csprojResolveAssemblyReference.cache
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.Form1.resources
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.Properties.Resources.resources
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.csproj.GenerateResource.Cache
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.csproj.CoreCompileInputs.cache
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\bin\Debug\TSST_Cloud_v2.exe.config
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\bin\Debug\TSST_Cloud_v2.exe
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\bin\Debug\TSST_Cloud_v2.pdb
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.exe
+B:\STUDIA\Programy\byVisual\TSST_Cloud_v2\TSST_Cloud_v2\obj\Debug\TSST_Cloud_v2.pdb

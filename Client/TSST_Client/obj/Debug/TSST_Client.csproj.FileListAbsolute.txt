@@ -1,0 +1,10 @@
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.csprojResolveAssemblyReference.cache
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.Properties.Resources.resources
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.csproj.GenerateResource.Cache
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.csproj.CoreCompileInputs.cache
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\bin\Debug\TSST_Client.exe.config
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\bin\Debug\TSST_Client.exe
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\bin\Debug\TSST_Client.pdb
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.Form1.resources
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.exe
+B:\STUDIA\Programy\byVisual\TSST_Client\TSST_Client\obj\Debug\TSST_Client.pdb

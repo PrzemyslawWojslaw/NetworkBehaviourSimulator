@@ -1,0 +1,6 @@
+Dziennik logów domeny "d1" z dnia 22.01.2018
+=====================================
+2018.01.22 - 11:24.50.3765  >>>  Uruchomiono NMS domeny "d1".
+2018.01.22 - 11:24.50.4078  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 11:24.52.0047  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 11:24.52.0047  >>> Wyłączono NMS.

@@ -1,0 +1,65 @@
+Dziennik logów domeny "d1" z dnia 22.01.2018
+=====================================
+2018.01.22 - 00:51.53.6711  >>>  Uruchomiono NMS domeny "d1".
+2018.01.22 - 00:51.53.6824  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 00:51.54.3484  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:51.54.3564  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.22 - 00:51.54.3604  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.22 - 00:51.55.6273  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:51.55.6789  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d3
+2018.01.22 - 00:51.55.7119  >>>  Urządzenie przedstawiło się jako: "d3".
+2018.01.22 - 00:51.56.8847  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:51.56.9523  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.22 - 00:51.57.0418  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.22 - 00:51.58.3273  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:51.58.4533  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.22 - 00:51.58.5554  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.22 - 00:51.59.3260  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:51.59.6057  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.22 - 00:51.59.6107  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.22 - 00:52.05.9031  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:52.06.4600  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.22 - 00:52.06.4660  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.22 - 00:52.16.7023  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:52.17.9532  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.22 - 00:52.17.9587  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.22 - 00:52.35.0603  >>>  Od urządenia "c1" otrzymano wiadomość:
+	CallRequest|c2|25 Gbit/s
+2018.01.22 - 00:52.35.3350  >>>  NCC : Otrzymano żądanie zestawienia połączenia od użytkownika "c1". Parametry:
+	Adresat = "c2", Przepustowość = 25 Gbit/s
+2018.01.22 - 00:52.35.3495  >>>  NCC -> P : Żądanie uwierzytelnienia i autoryzacji użytkownika "c1".
+2018.01.22 - 00:52.35.3570  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c1" potwierdzone.
+2018.01.22 - 00:52.35.3650  >>>  NCC -> CC :  Żądanie zestawienia połączenia od użytkownika "c1" do użytkownika "c2" z przepustowością 25 Gbit/s.
+2018.01.22 - 00:52.35.3756  >>>  CC -> RC :  Żądanie znalezienia ścieżki od użytkownika "c1" do użytkownika "c2" z przepustowością 25 Gbit/s.
+2018.01.22 - 00:52.35.3871  >>>  RC : Wykryto, że użytkownik docelowy należy do innej domeny. Rozpoczęto koordynację połączenia z domeną "d3".
+2018.01.22 - 00:52.35.3981  >>>  RC : Zakończono koordynację połączenia. Otrzymano informacje o dostępnych w domenie "d3" szczelinach.
+2018.01.22 - 00:52.35.3986  >>>  Urządzeniu "d3" przesłano wiadomość:
+CallCoordination|d1|1|d3|1|c2|25 Gbit/s
+2018.01.22 - 00:52.35.4491  >>>  Ścieżka:
+	r3=Add|3|0|0|2
+	d2=Add|1|0|0|2
+	r1=Add|1|0|0|3
+	c=Add|c2|0|0
+
+2018.01.22 - 00:52.35.4521  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 00:52.35.4666  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia od użytkownika "c1" do użytkownika "c2" ścieżką otrzymaną od RC.
+2018.01.22 - 00:52.35.4941  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 00:52.35.8874  >>>  Urządzeniu "r1" przesłano wiadomość:
+2018.01.22 - 00:52.35.9014  >>>  Urządzeniu "d2" przesłano wiadomość:
+Connect|d1|1|2|25 Gbit/s
+2018.01.22 - 00:52.35.9269  >>>  Urządzeniu "r3" przesłano wiadomość:
+Add|1|0|0|3
+Add|3|0|0|2
+2018.01.22 - 00:52.37.2684  >>>  Od urządenia "d3" otrzymano wiadomość:
+	ExYupNMS|d1|1|d3|1
+2018.01.22 - 00:53.34.3304  >>>  Wyjątek w komuniakcji z klientem "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.22 - 00:53.35.1655  >>>  Rozłączono klienta "d2".
+2018.01.22 - 00:53.46.7963  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 00:53.46.7963  >>> Wyłączono NMS.

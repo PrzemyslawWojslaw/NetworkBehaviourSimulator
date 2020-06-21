@@ -1,0 +1,18 @@
+Dziennik logów domeny "d1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 23:09.38.0676  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.25 - 23:09.38.0946  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 23:09.40.5450  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:09.40.6390  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|s1
+2018.01.25 - 23:09.40.6616  >>>  Urządzenie przedstawiło się jako: "s1".
+2018.01.25 - 23:09.41.7198  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:09.41.9595  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.25 - 23:09.41.9975  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.25 - 23:09.42.7540  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:09.43.1568  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.25 - 23:09.43.1603  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.25 - 23:09.49.9236  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 23:09.49.9236  >>> Wyłączono NMS.

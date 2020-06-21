@@ -1,0 +1,33 @@
+Dziennik logów domeny "d1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 16:35.59.3918  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.25 - 16:35.59.4855  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 16:36.37.2929  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:36.37.3241  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.25 - 16:36.37.3241  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.25 - 16:36.38.4215  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:36.38.4621  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.25 - 16:36.38.4666  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.25 - 16:36.39.5989  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:36.39.9416  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.25 - 16:36.40.0222  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.25 - 16:36.40.7607  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:36.41.1340  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.25 - 16:36.41.2781  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.25 - 16:36.48.9530  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 16:36.50.6067  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.25 - 16:36.50.8258  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.25 - 16:38.12.0546  >>>  Rozłączono klienta "r3".
+2018.01.25 - 16:38.12.1161  >>>  Rozłączono klienta "r2".
+2018.01.25 - 16:38.12.3783  >>>  Wyjątek w komuniakcji z klientem "r1": Unable to read beyond the end of the stream.
+2018.01.25 - 16:38.12.8276  >>>  Rozłączono klienta "r1".
+2018.01.25 - 16:38.14.7010  >>>  Rozłączono klienta "c1".
+2018.01.25 - 16:38.15.5646  >>>  Wyjątek w komuniakcji z klientem "cloud": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.25 - 16:38.15.5871  >>>  Rozłączono klienta "cloud".
+2018.01.25 - 16:38.16.3295  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 16:38.16.3295  >>> Wyłączono NMS.

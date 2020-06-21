@@ -1,0 +1,41 @@
+Dziennik logów domeny "d3" z dnia 22.01.2018
+=====================================
+2018.01.22 - 00:19.41.4757  >>>  Uruchomiono NMS domeny "d3".
+2018.01.22 - 00:19.41.5608  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 00:20.12.7039  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:20.13.0701  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.22 - 00:20.13.0737  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.22 - 00:20.20.1001  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:20.20.7366  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.22 - 00:20.20.7401  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.22 - 00:20.27.1236  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:20.27.5559  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.22 - 00:20.28.1559  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.22 - 00:20.44.1037  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:20.45.2350  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.22 - 00:20.45.2395  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.22 - 00:20.54.6702  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 50 Gbit/s
+2018.01.22 - 00:20.56.3284  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.22 - 00:20.56.3404  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.22 - 00:20.56.3479  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.22 - 00:20.56.3749  >>>  Ścieżka: r9=Add|2|0|1|3
+r8=Add|1|0|1|2
+c=Add|c2|0|1
+
+2018.01.22 - 00:20.56.3774  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 00:20.56.3864  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.22 - 00:20.56.4184  >>>  Urządzeniu "r8" przesłano wiadomość:
+2018.01.22 - 00:20.56.4339  >>>  Wyjątek w komuniakcji z głównym systemem zarządzania w domenie "d3": Specified argument was out of the range of valid values.
+Parameter name: index
+2018.01.22 - 00:20.56.4389  >>>  Odłączono główny system zarządzania!
+2018.01.22 - 00:20.56.7937  >>>  Urządzeniu "r9" przesłano wiadomość:
+Add|1|0|1|2
+Add|2|0|1|3
+2018.01.22 - 00:23.19.0136  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 00:23.19.0136  >>> Wyłączono NMS.

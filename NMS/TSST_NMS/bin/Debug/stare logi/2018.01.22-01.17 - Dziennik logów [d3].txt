@@ -1,0 +1,42 @@
+Dziennik logów domeny "d3" z dnia 22.01.2018
+=====================================
+2018.01.22 - 01:15.38.4312  >>>  Uruchomiono NMS domeny "d3".
+2018.01.22 - 01:15.38.5222  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 01:15.52.7248  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:15.53.2657  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:15.53.6990  >>>  Od urządenia "-" otrzymano wiadomość:
+2018.01.22 - 01:15.53.5389  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+	Hello|r7
+2018.01.22 - 01:15.54.1538  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.22 - 01:15.54.2084  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.22 - 01:15.58.3063  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:15.59.0563  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.22 - 01:16.00.2837  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.22 - 01:16.02.9501  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:16.04.5507  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.22 - 01:16.04.9330  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.22 - 01:16.12.3182  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 50 Gbit/s
+2018.01.22 - 01:16.12.3357  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.22 - 01:16.12.3413  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.22 - 01:16.14.4963  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.22 - 01:16.15.3509  >>>  Ścieżka: c2=Add|1|0|1|
+r9=Add|2|0|1|3
+r8=Add|1|0|1|2
+r7=Add|c2|0|1
+
+2018.01.22 - 01:16.15.3544  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 01:16.15.3629  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.22 - 01:16.15.3779  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 01:16.15.3859  >>>  Urządzeniu "r9" przesłano wiadomość:
+Add|2|0|1|3
+2018.01.22 - 01:16.15.4124  >>>  Urządzeniu "r7" przesłano wiadomość:
+2018.01.22 - 01:16.15.6496  >>>  Urządzeniu "r8" przesłano wiadomość:
+Add|1|0|1|3
+Add|1|0|1|2
+2018.01.22 - 01:17.37.6598  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 01:17.37.6598  >>> Wyłączono NMS.

@@ -1,0 +1,34 @@
+Dziennik logów domeny "d1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 19:27.55.0907  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.25 - 19:27.55.1063  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 19:27.55.3719  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:27.55.3876  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|s1
+2018.01.25 - 19:27.55.3876  >>>  Urządzenie przedstawiło się jako: "s1".
+2018.01.25 - 19:27.56.5092  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:27.56.5247  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.25 - 19:27.56.5277  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.25 - 19:27.57.7476  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:27.57.7861  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.25 - 19:27.57.8216  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.25 - 19:27.58.9995  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:27.59.2562  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.25 - 19:27.59.2597  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.25 - 19:28.00.2864  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:28.00.6832  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.25 - 19:28.00.7797  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.25 - 19:28.01.7900  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:28.02.2148  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.25 - 19:28.02.2223  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.25 - 19:28.13.2161  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 19:28.13.7810  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.25 - 19:28.14.2959  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.25 - 19:29.17.1110  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 19:29.17.1110  >>> Wyłączono NMS.

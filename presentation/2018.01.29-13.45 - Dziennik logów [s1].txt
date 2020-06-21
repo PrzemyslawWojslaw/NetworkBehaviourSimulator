@@ -1,0 +1,88 @@
+Dziennik logów domeny "s1" z dnia 29.01.2018
+=====================================
+2018.01.29 - 13:06.55.2363  >>>  Uruchomiono węzeł sterujący domeny "s1".
+2018.01.29 - 13:06.55.2520  >>>  Włączono nasłuchiwanie.
+2018.01.29 - 13:07.04.8134  >>>  Połączono z nowym urządzeniem.
+2018.01.29 - 13:07.05.4583  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.29 - 13:07.06.1453  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.29 - 13:07.07.2066  >>>  Połączono z nowym urządzeniem.
+2018.01.29 - 13:07.07.7540  >>>  Od urządenia "-" otrzymano wiadomość:
+2018.01.29 - 13:07.07.7565  >>>  Połączono z nowym urządzeniem.
+	Hello|r5
+2018.01.29 - 13:07.08.4229  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.29 - 13:07.08.4229  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.29 - 13:07.08.4269  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.29 - 13:20.00.0235  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+	Szczeliny: 0-1
+2018.01.29 - 13:20.00.5053  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.29 - 13:20.01.3644  >>>  Ścieżka: r6=1|0|1|
+r5=1|0|1|2
+r4=r6|0|1
+
+2018.01.29 - 13:20.01.7397  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.29 - 13:20.01.7462  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 0 oraz 1 ścieżką otrzymaną od RC.
+2018.01.29 - 13:20.01.9063  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.29 - 13:20.01.9158  >>>  Wysłano głównemu węzłowi wiadomość:
+	SubYupNMS|1|0|1|2
+2018.01.29 - 13:20.02.3321  >>>  Urządzeniu "r4" przesłano wiadomość:
+2018.01.29 - 13:20.02.3351  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.29 - 13:20.02.3376  >>>  Urządzeniu "r6" przesłano wiadomość:
+	r4::Add|1|0|1|3
+	r6::Add|1|0|1|3
+	r5::Add|1|0|1|2
+2018.01.29 - 13:34.28.1216  >>>  CC : CallTeardown() - Otrzymano żądanie rozłączenia połączenia. Parametry:
+	ID węzła wejściowego = 1, ID węzła wyjściowego = 2
+	Szczeliny = 0-1
+2018.01.29 - 13:34.28.6265  >>>  CC -> LRM : Żądanie dealokacji zasobów połączenia o parametrach:
+	Użytkownik początkowy = "r4", użytkownik końcowy = r6
+2018.01.29 - 13:34.28.6695  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.29 - 13:34.28.6725  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.29 - 13:34.28.7091  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r6::Remove|1|0|1|3
+	r4::Remove|1|0|1|3
+	r5::Remove|1|0|1|2
+2018.01.29 - 13:39.39.7602  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+	Szczeliny: 2-3
+2018.01.29 - 13:39.40.5418  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.29 - 13:39.40.5543  >>>  Ścieżka: r6=1|2|3|
+r5=1|2|3|2
+r4=r6|2|3
+
+2018.01.29 - 13:39.40.5598  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.29 - 13:39.40.5733  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 2 oraz 3 ścieżką otrzymaną od RC.
+2018.01.29 - 13:39.40.6063  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.29 - 13:39.40.6218  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.29 - 13:39.40.6223  >>>  Wysłano głównemu węzłowi wiadomość:
+	r5::Add|1|2|3|2
+	SubYupNMS|1|2|3|2
+2018.01.29 - 13:39.40.6303  >>>  Urządzeniu "r6" przesłano wiadomość:
+	r6::Add|1|2|3|3
+2018.01.29 - 13:39.41.0196  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r4::Add|1|2|3|3
+2018.01.29 - 13:40.13.1800  >>>  Wyjątek w komunikacji z klientem "r5": Unable to read beyond the end of the stream.
+2018.01.29 - 13:40.13.7138  >>>  LRM -> CC : Wykryto niesprawność węzła "r5"!
+2018.01.29 - 13:40.13.7313  >>>  CC -> RC : Żądanie znalezienia drogi zastępczej dla węzła "r5".
+2018.01.29 - 13:40.13.7579  >>>  RC -> CC : Odnaleziono nową ścieżkę:
+2018.01.29 - 13:40.13.7764  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby przejścia połączenia na nową ścieżkę.
+2018.01.29 - 13:40.13.8014  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.29 - 13:40.13.9460  >>>  Rozłączono klienta "r5".
+2018.01.29 - 13:40.14.0336  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.29 - 13:40.14.0556  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r6::Remove|1|0|1|3
+	r4::Remove|1|0|1|3
+2018.01.29 - 13:40.15.6682  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.29 - 13:40.15.6717  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r6::Add|2|0|1|3
+	r4::Add|1|0|1|2
+2018.01.29 - 13:40.15.6827  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.29 - 13:40.15.6862  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r6::Remove|1|2|3|3
+	r4::Remove|1|2|3|3
+2018.01.29 - 13:40.16.4077  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.29 - 13:40.16.4113  >>>  Urządzeniu "r4" przesłano wiadomość:
+	r6::Add|2|2|3|3
+	r4::Add|1|2|3|2
+2018.01.29 - 13:45.02.8549  >>> Wyłączono nasłuchiwanie.
+2018.01.29 - 13:45.02.8549  >>> Wyłączono NMS.

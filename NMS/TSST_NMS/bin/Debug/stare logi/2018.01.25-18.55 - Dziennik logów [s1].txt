@@ -1,0 +1,30 @@
+Dziennik logów domeny "s1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 18:51.31.3302  >>>  Uruchomiono węzeł sterujący domeny "s1".
+2018.01.25 - 18:51.31.3458  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 18:51.38.6905  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 18:51.39.0613  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.25 - 18:51.39.4466  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.25 - 18:51.41.1918  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 18:51.41.6161  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.25 - 18:51.42.2876  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.25 - 18:51.42.7074  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 18:51.43.3699  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.25 - 18:51.43.6381  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.25 - 18:52.25.7005  >>>  CC : ConnectionRequest() - otrzymano żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+	Szczeliny: 0-1
+2018.01.25 - 18:52.25.7155  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.25 - 18:52.25.7395  >>>  Ścieżka: r6=1|0|1|
+r5=1|0|1|2
+r4=r6|0|1
+
+2018.01.25 - 18:52.25.7420  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.25 - 18:52.25.7500  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 0 oraz 1 ścieżką otrzymaną od RC.
+2018.01.25 - 18:52.26.5521  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.25 - 18:52.26.5936  >>>  Wyjątek w komunikacji z głównym systemem zarządzania w domenie "s1": The given key was not present in the dictionary.
+Add|1|0|1|2
+2018.01.25 - 18:55.52.1132  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 18:55.52.1132  >>> Wyłączono NMS.

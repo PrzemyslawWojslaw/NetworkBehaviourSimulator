@@ -1,0 +1,6 @@
+Dziennik logów domeny "d2" z dnia 25.01.2018
+=====================================
+2018.01.25 - 23:09.41.5377  >>>  Uruchomiono węzeł sterujący domeny "d2".
+2018.01.25 - 23:09.41.7018  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 23:09.49.9236  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 23:09.49.9236  >>> Wyłączono NMS.

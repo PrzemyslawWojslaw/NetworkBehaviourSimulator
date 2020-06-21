@@ -1,0 +1,52 @@
+Dziennik logów domeny "d3" z dnia 22.01.2018
+=====================================
+2018.01.22 - 12:33.42.5724  >>>  Uruchomiono NMS domeny "d3".
+2018.01.22 - 12:33.42.7220  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 12:33.56.8810  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 12:33.57.4584  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.22 - 12:33.57.4624  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.22 - 12:33.58.1074  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 12:33.59.2252  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.22 - 12:33.59.2297  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.22 - 12:33.59.9832  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 12:34.00.8248  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.22 - 12:34.01.1456  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.22 - 12:34.05.4926  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 12:34.06.8981  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.22 - 12:34.08.3317  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.22 - 12:34.14.6176  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 50 Gbit/s
+2018.01.22 - 12:34.15.1305  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.22 - 12:34.15.1365  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.22 - 12:34.15.1440  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.22 - 12:34.15.1720  >>>  Ścieżka: c2=Add|1|0|1|
+r9=Add|2|0|1|3
+r8=Add|1|0|1|2
+r7=Add|c2|0|1
+
+2018.01.22 - 12:34.15.1745  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 12:34.15.1835  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.22 - 12:34.15.2005  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 12:34.15.2030  >>>  Urządzeniu "r9" przesłano wiadomość:
+2018.01.22 - 12:34.15.2035  >>>  Urządzeniu "r8" przesłano wiadomość:
+Add|2|0|1|3
+2018.01.22 - 12:34.15.5083  >>>  Urządzeniu "r7" przesłano wiadomość:
+Add|1|0|1|2
+Add|1|0|1|3
+2018.01.22 - 12:34.48.2585  >>>  LRM -> CC : Wykryto niesprawność węzła "r8"!
+2018.01.22 - 12:34.48.2755  >>>  CC -> RC : Żądanie znalezienia drogi zastępczej dla węzła "r8".
+2018.01.22 - 12:34.48.2905  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 12:34.48.3065  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby przejścia połączenia na nową ścieżkę.
+2018.01.22 - 12:34.48.3251  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 12:34.48.6528  >>>  Urządzeniu "r7" przesłano wiadomość:
+Remove|1|0|1|3
+2018.01.22 - 12:34.48.6718  >>>  Rozłączono klienta "r8".
+2018.01.22 - 12:34.48.7073  >>>  Urządzeniu "r9" przesłano wiadomość:
+Remove|2|0|1|3
+2018.01.22 - 12:39.50.0267  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 12:39.50.0267  >>> Wyłączono NMS.

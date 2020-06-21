@@ -1,0 +1,25 @@
+Dziennik logów domeny "d2" z dnia 22.01.2018
+=====================================
+2018.01.22 - 01:04.36.2983  >>>  Uruchomiono NMS domeny "d2".
+2018.01.22 - 01:04.36.3103  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 01:04.44.6908  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:04.45.3953  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.22 - 01:04.45.5914  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.22 - 01:04.46.2559  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:04.46.7888  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.22 - 01:04.47.5038  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.22 - 01:04.47.9921  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:04.48.3894  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.22 - 01:04.48.8442  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.22 - 01:05.14.1457  >>>  NCC : Otrzymano żądanie zestawienia połączenia od domeny "d1". Parametry:
+	ID routera brzegowego wejściowego: 1, ID routera brzegowego wyjściowego: 2
+	Przepustowość: 50 Gbit/s
+2018.01.22 - 01:05.15.3030  >>>  NCC -> CC : Żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 01:05.15.6833  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 01:05.16.0680  >>>  Wyjątek w komuniakcji z głównym systemem zarządzania w domenie "d2": The given key was not present in the dictionary.
+2018.01.22 - 01:05.16.4543  >>>  Odłączono główny system zarządzania!
+2018.01.22 - 01:07.44.8827  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 01:07.44.8827  >>> Wyłączono NMS.

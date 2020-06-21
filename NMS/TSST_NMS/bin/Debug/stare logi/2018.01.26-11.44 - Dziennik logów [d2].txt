@@ -1,0 +1,39 @@
+Dziennik logów domeny "d2" z dnia 26.01.2018
+=====================================
+2018.01.26 - 11:43.15.4702  >>>  Uruchomiono węzeł sterujący domeny "d2".
+2018.01.26 - 11:43.15.5437  >>>  Włączono nasłuchiwanie.
+2018.01.26 - 11:43.26.4285  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:43.26.9833  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.26 - 11:43.26.9863  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.26 - 11:43.27.4987  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:43.28.2132  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.26 - 11:43.28.5214  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.26 - 11:43.32.0314  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:43.32.6309  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.26 - 11:43.32.8515  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.26 - 11:43.34.5737  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 11:43.35.4929  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.26 - 11:43.36.2529  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.26 - 11:43.51.0710  >>>  Od urządenia "c2" otrzymano wiadomość:
+	CallRequest|c2|25 Gbit/s|12,5 GBoda
+2018.01.26 - 11:43.51.0755  >>>  NCC : CallRequest() - Otrzymano żądanie zestawienia połączenia od użytkownika "c2". Parametry:
+	Adresat = "c2", Przepustowość = 25 Gbit/s
+	Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.26 - 11:43.51.0930  >>>  NCC -> P : Policy() - Żądanie uwierzytelnienia i autoryzacji użytkownika "c2".
+2018.01.26 - 11:43.51.0995  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c2" potwierdzone.
+2018.01.26 - 11:43.51.1060  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.26 - 11:43.51.1135  >>>  D -> NCC : Adres nadawcy "c2" = 2101, adres odbiorcy "c1" = 1101
+2018.01.26 - 11:43.51.1210  >>>  NCC -> CC : ConnectionRequest() - Żądanie zestawienia połączenia. Parametry:
+	Użytkownik początkowy (nadawca) = "2101", Użytkownik końcowy = "1101
+	Przepustowość = 25 Gbit/s, Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.26 - 11:43.51.1585  >>>  CC -> RC : RouteTableQuery() - Żądanie znalezienia ścieżki. Parametry:
+	od użytkownika =2101, do użytkownika =1101
+	przepustowość =25 Gbit/s , ilość podnośnych = 1, przepływność symbolowa =12,5 GBoda, kodowanie QAM
+2018.01.26 - 11:43.51.2136  >>>  Wyjątek w komunikacji z klientem "c2": Input string was not in a correct format.
+2018.01.26 - 11:43.51.2431  >>>  Rozłączono klienta "c2".
+2018.01.26 - 11:44.57.4156  >>> Wyłączono nasłuchiwanie.
+2018.01.26 - 11:44.57.4156  >>> Wyłączono NMS.

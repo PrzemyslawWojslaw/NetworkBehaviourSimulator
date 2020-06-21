@@ -1,0 +1,47 @@
+Dziennik logów domeny "d2" z dnia 25.01.2018
+=====================================
+2018.01.25 - 23:21.24.5800  >>>  Uruchomiono węzeł sterujący domeny "d2".
+2018.01.25 - 23:21.24.6475  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 23:21.35.0939  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:21.35.6368  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.25 - 23:21.36.3533  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.25 - 23:21.36.9077  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:21.37.3215  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.25 - 23:21.37.3245  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.25 - 23:21.38.8111  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:21.39.5096  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.25 - 23:21.39.7793  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.25 - 23:21.43.7171  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 23:21.44.9695  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.25 - 23:21.44.9745  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.25 - 23:21.55.2107  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 25 Gbit/s
+2018.01.25 - 23:21.55.5850  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.25 - 23:21.55.5910  >>>  D -> NCC : Adres użytkownika docelowego ("c2") to 2101.
+2018.01.25 - 23:21.55.5970  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.25 - 23:21.55.6050  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.25 - 23:21.55.6135  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.25 - 23:21.56.0433  >>>  Ścieżka: 	c2===1|0|1|
+	r9===1|0|1|3
+	r7===c2|0|1
+
+2018.01.25 - 23:21.56.0558  >>>  RC -> CC : Odnaleziono ścieżkę.
+	r7 -> r9 -> c2
+2018.01.25 - 23:21.56.0799  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.25 - 23:21.56.1004  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 23:21.56.1199  >>>  Wysłano głównemu węzłowi wiadomość:
+	ExYupNMS|d1|1|d2|1
+2018.01.25 - 23:21.56.8519  >>>  Urządzeniu "c2" przesłano wiadomość:
+CallAccept|c1
+2018.01.25 - 23:21.56.8619  >>>  Urządzeniu "r9" przesłano wiadomość:
+2018.01.25 - 23:21.56.8619  >>>  Urządzeniu "r7" przesłano wiadomość:
+Add|1|0|1|2
+Add|1|0|1|3
+2018.01.25 - 23:23.09.1323  >>>  Odłączono główny system zarządzania!
+2018.01.25 - 23:23.13.4053  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 23:23.13.4053  >>> Wyłączono NMS.

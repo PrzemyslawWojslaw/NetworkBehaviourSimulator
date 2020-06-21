@@ -1,0 +1,7 @@
+Connections:
+d1:1|r4:1|10 r4:2|r6:2|100 r4:3|r5:1|10 r5:2|r6:1|10 r6:3|d1:2|10
+Elements:
+r4|edge|1|d1
+r5
+r6|edge|2|d2
+d1

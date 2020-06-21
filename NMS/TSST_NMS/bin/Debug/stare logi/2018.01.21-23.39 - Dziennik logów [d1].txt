@@ -1,0 +1,12 @@
+Dziennik logów domeny "d1" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:39.09.8532  >>>  Uruchomiono NMS domeny "d1".
+2018.01.21 - 23:39.09.8688  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:39.36.4282  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:39.36.4439  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.21 - 23:39.36.4439  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.21 - 23:39.36.4595  >>>  Wyjątek w komuniakcji z klientem "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.21 - 23:39.36.4907  >>>  Rozłączono klienta "d2".
+2018.01.21 - 23:39.53.6222  >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:39.53.6222  >>> Wyłączono NMS.

@@ -1,0 +1,11 @@
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\bin\Debug\TSST_NMS.exe.config
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\bin\Debug\TSST_NMS.exe
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\bin\Debug\TSST_NMS.pdb
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.csprojResolveAssemblyReference.cache
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.Form1.resources
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.Properties.Resources.resources
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.csproj.GenerateResource.Cache
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.csproj.CoreCompileInputs.cache
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.exe
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.pdb
+B:\STUDIA\Programy\byVisual\TSST_NMS\TSST_NMS\obj\Debug\TSST_NMS.NetworkForm.resources

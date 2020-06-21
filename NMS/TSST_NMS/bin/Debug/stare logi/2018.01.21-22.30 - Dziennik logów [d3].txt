@@ -1,0 +1,23 @@
+Dziennik logów domeny "d3" z dnia 21.01.2018
+=====================================
+2018.01.21 - 22:28.07.4355  >>>  Uruchomiono NMS domeny "d3".
+2018.01.21 - 22:28.07.5351  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 22:28.20.1226  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 22:28.20.4983  >>>  Od urządenia - otrzymano wiadomość:
+	Hello|r7
+2018.01.21 - 22:28.21.1753  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 22:28.21.0927  >>>  Urządzenie przedstawiło się jako: r7.
+2018.01.21 - 22:28.22.0544  >>>  Od urządenia - otrzymano wiadomość:
+	Hello|c2
+2018.01.21 - 22:28.22.4127  >>>  Urządzenie przedstawiło się jako: c2.
+2018.01.21 - 22:28.24.0478  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 22:28.24.4997  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 22:28.24.9110  >>>  Od urządenia - otrzymano wiadomość:
+2018.01.21 - 22:28.25.3943  >>>  Od urządenia - otrzymano wiadomość:
+	Hello|r9
+	Hello|r8
+2018.01.21 - 22:28.25.7681  >>>  Urządzenie przedstawiło się jako: r8.
+2018.01.21 - 22:28.25.7936  >>>  Urządzenie przedstawiło się jako: r9.
+2018.01.21 - 22:30.20.6061  >>>  Odłączono główny system zarządzania!
+2018.01.21 - 22:30.52.9931 >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 22:30.52.9931 >>> Wyłączono NMS.

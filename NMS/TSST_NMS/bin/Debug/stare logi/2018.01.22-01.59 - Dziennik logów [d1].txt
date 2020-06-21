@@ -1,0 +1,67 @@
+Dziennik logów domeny "d1" z dnia 22.01.2018
+=====================================
+2018.01.22 - 01:57.00.2476  >>>  Uruchomiono NMS domeny "d1".
+2018.01.22 - 01:57.00.2632  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 01:57.01.3726  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.01.3883  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.22 - 01:57.01.3883  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.22 - 01:57.02.5719  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.02.5784  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d3
+2018.01.22 - 01:57.02.5834  >>>  Urządzenie przedstawiło się jako: "d3".
+2018.01.22 - 01:57.03.8453  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.03.9514  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.22 - 01:57.04.1135  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.22 - 01:57.05.0202  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.05.1903  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.22 - 01:57.05.3979  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.22 - 01:57.06.9245  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.07.4754  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.22 - 01:57.07.5995  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.22 - 01:57.08.2750  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.08.6567  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.22 - 01:57.08.6633  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.22 - 01:57.23.2541  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 01:57.24.2763  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.22 - 01:57.24.2813  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.22 - 01:57.33.3348  >>>  Od urządenia "c1" otrzymano wiadomość:
+	CallRequest|c2|75 Gbit/s
+2018.01.22 - 01:57.33.8336  >>>  NCC : Otrzymano żądanie zestawienia połączenia od użytkownika "c1". Parametry:
+	Adresat = "c2", Przepustowość = 75 Gbit/s
+2018.01.22 - 01:57.33.8476  >>>  NCC -> P : Żądanie uwierzytelnienia i autoryzacji użytkownika "c1".
+2018.01.22 - 01:57.33.8541  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c1" potwierdzone.
+2018.01.22 - 01:57.33.8741  >>>  NCC -> CC :  Żądanie zestawienia połączenia od użytkownika "c1" do użytkownika "c2" z przepustowością 75 Gbit/s.
+2018.01.22 - 01:57.33.8822  >>>  CC -> RC :  Żądanie znalezienia ścieżki od użytkownika "c1" do użytkownika "c2" z przepustowością 75 Gbit/s.
+2018.01.22 - 01:57.33.8927  >>>  RC : Wykryto, że użytkownik docelowy należy do innej domeny. Rozpoczęto koordynację połączenia z domeną "d3".
+2018.01.22 - 01:57.33.9032  >>>  RC : Zakończono koordynację połączenia. Otrzymano informacje o dostępnych w domenie "d3" szczelinach.
+2018.01.22 - 01:57.34.2619  >>>  Urządzeniu "d3" przesłano wiadomość:
+2018.01.22 - 01:57.34.3535  >>>  Ścieżka:
+	d3=Add|1|0|2|
+	r3=Add|3|0|2|2
+	d2=Add|1|0|2|2
+	r1=Add|1|0|2|3
+	c1=Add|c2|0|2
+
+CallCoordination|d1|1|d3|1|c2|75 Gbit/s
+2018.01.22 - 01:57.35.2081  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 01:57.35.5924  >>>  Od urządenia "d3" otrzymano wiadomość:
+2018.01.22 - 01:57.37.2075  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia od użytkownika "c1" do użytkownika "c2" ścieżką otrzymaną od RC.
+	ExYupNMS|d1|1|d3|1
+2018.01.22 - 01:57.37.6899  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 01:57.38.0931  >>>  Urządzeniu "r3" przesłano wiadomość:
+2018.01.22 - 01:57.38.0936  >>>  Urządzeniu "r1" przesłano wiadomość:
+2018.01.22 - 01:57.38.0936  >>>  Urządzeniu "d2" przesłano wiadomość:
+Add|3|0|2|2
+Add|1|0|2|3
+Connect|d1|1|2|75 Gbit/s
+2018.01.22 - 01:58.12.6537  >>>  Rozłączono klienta "c1".
+2018.01.22 - 01:58.24.3645  >>>  Wyjątek w komuniakcji z klientem "cloud": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.22 - 01:58.24.3865  >>>  Rozłączono klienta "cloud".
+2018.01.22 - 01:59.02.9599  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 01:59.02.9599  >>> Wyłączono NMS.

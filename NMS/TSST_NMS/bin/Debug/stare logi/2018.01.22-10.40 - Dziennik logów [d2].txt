@@ -1,0 +1,40 @@
+Dziennik logów domeny "d2" z dnia 22.01.2018
+=====================================
+2018.01.22 - 10:38.06.3731  >>>  Uruchomiono NMS domeny "d2".
+2018.01.22 - 10:38.06.3731  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 10:38.14.7194  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 10:38.15.1012  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.22 - 10:38.15.4379  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.22 - 10:38.17.7576  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 10:38.18.1959  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.22 - 10:38.18.9624  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.22 - 10:38.19.1405  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 10:38.19.8781  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.22 - 10:38.20.7567  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.22 - 10:38.49.1468  >>>  NCC : Otrzymano żądanie zestawienia połączenia od domeny "d1". Parametry:
+	ID routera brzegowego wejściowego: 1, ID routera brzegowego wyjściowego: 2
+	Przepustowość: 25 Gbit/s
+2018.01.22 - 10:38.49.9179  >>>  NCC -> CC : Żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 10:38.49.9234  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 10:38.49.9469  >>>  Ścieżka: r6=Add|1|0|0|
+r5=Add|1|0|0|2
+r4=Add|c2|0|0
+
+2018.01.22 - 10:38.49.9489  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 10:38.49.9569  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 1 oraz 2 ścieżką otrzymaną od RC.
+2018.01.22 - 10:38.49.9679  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 10:38.49.9779  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.22 - 10:38.49.9784  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.22 - 10:38.50.0215  >>>  Urządzeniu "r4" przesłano wiadomość:
+Add|1|0|0|3
+Add|1|0|0|2
+Add|1|0|0|3
+2018.01.22 - 10:39.46.3604  >>>  Odłączono główny system zarządzania!
+2018.01.22 - 10:40.02.6310  >>>  Rozłączono klienta "r4".
+2018.01.22 - 10:40.02.6310  >>>  Rozłączono klienta "r6".
+2018.01.22 - 10:40.02.6545  >>>  Rozłączono klienta "r5".
+2018.01.22 - 10:40.04.1777  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 10:40.04.1777  >>> Wyłączono NMS.

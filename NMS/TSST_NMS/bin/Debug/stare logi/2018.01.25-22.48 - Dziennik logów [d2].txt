@@ -1,0 +1,68 @@
+Dziennik logów domeny "d2" z dnia 25.01.2018
+=====================================
+2018.01.25 - 22:46.18.4329  >>>  Uruchomiono węzeł sterujący domeny "d2".
+2018.01.25 - 22:46.18.5284  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 22:46.30.3233  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.31.4346  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.25 - 22:46.31.4386  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.25 - 22:46.33.0292  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.33.7483  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.25 - 22:46.34.0850  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.25 - 22:46.34.5203  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.35.2283  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.25 - 22:46.35.6406  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.25 - 22:46.41.5698  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 22:46.42.6436  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.25 - 22:46.43.4747  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.25 - 22:46.58.0040  >>>  Od urządenia "c2" otrzymano wiadomość:
+	CallRequest|c1|25 Gbit/s|12,5 GBoda
+2018.01.25 - 22:46.58.4293  >>>  NCC : CallRequest() - Otrzymano żądanie zestawienia połączenia od użytkownika "c2". Parametry:
+	Adresat = "c1", Przepustowość = 25 Gbit/s
+	Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.25 - 22:46.58.4468  >>>  NCC -> P : Policy() - Żądanie uwierzytelnienia i autoryzacji użytkownika "c2".
+2018.01.25 - 22:47.00.1405  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c2" potwierdzone.
+2018.01.25 - 22:47.00.1490  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.25 - 22:47.00.1570  >>>  D -> NCC : Adres nadawcy "c2" = 2101, adres odbiorcy "c1" = 1101
+2018.01.25 - 22:47.00.1660  >>>  NCC -> CC : ConnectionRequest() - Żądanie zestawienia połączenia. Parametry:
+	Użytkownik początkowy (nadawca) = "2101", Użytkownik końcowy = "1101
+	Przepustowość = 25 Gbit/s, Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.25 - 22:47.00.1956  >>>  CC -> RC : RouteTableQuery() - Żądanie znalezienia ścieżki. Parametry:
+	od użytkownika =2101, do użytkownika =1101
+	przepustowość =25 Gbit/s , ilość podnośnych = 1, przepływność symbolowa =12,5 GBoda, kodowanie QAM
+2018.01.25 - 22:47.00.2451  >>>  RC : Wykryto, że użytkownik docelowy należy do innej domeny ("d1").
+2018.01.25 - 22:47.00.2566  >>>  NCC : CallCoordination() - wysłano żądanie koordynacji do domeny "d1" z parametrami:
+	Użytkownik docelowy = "c1", Przepustowość = 25 Gbit/s
+	ID routera brzegowego nadawcy (tej domeny) = 1, ID routera brzegowego adresata = 1
+2018.01.25 - 22:47.00.3006  >>>  NCC : Zakończono koordynację połączenia. Otrzymano informacje o dostępnych w domenie "d1" szczelinach.
+2018.01.25 - 22:47.00.3422  >>>  Ścieżka i komendy konfiguracji:
+	c1===1|0|1|
+	d1===2|0|1|1
+	r7===2|0|1|1
+	r9===3|0|1|1
+	c2===c1|0|1
+
+2018.01.25 - 22:47.00.3492  >>>  RC -> CC : Odnaleziono ścieżkę:
+	c2 -> r9 -> r7 -> d1 -> c1
+2018.01.25 - 22:47.00.3802  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia od użytkownika "c2" do użytkownika "c1" ścieżką otrzymaną od RC.
+2018.01.25 - 22:47.00.3967  >>>  Urządzeniu "c2" przesłano wiadomośc:
+	Add|c1|0|1
+2018.01.25 - 22:47.00.4032  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 22:47.00.7785  >>>  Urządzeniu "r7" przesłano wiadomość:
+2018.01.25 - 22:47.00.7955  >>>  Urządzeniu "d1" przesłano wiadomość:
+CallCoordination|d2|1|d1|2|c1|25 Gbit/s
+2018.01.25 - 22:47.00.8020  >>>  Urządzeniu "d1" przesłano wiadomość:
+Add|2|0|1|1
+2018.01.25 - 22:47.00.8155  >>>  Urządzeniu "r9" przesłano wiadomość:
+Add|2|0|1|1
+Add|3|0|1|1
+2018.01.25 - 22:47.19.0154  >>>  Od urządenia "c2" otrzymano wiadomość:
+	CallTeardown|c1 (0-1)
+2018.01.25 - 22:47.19.8856  >>>  NCC : CallTeardown() - Otrzymano żądanie rozłączenia połączenia od użytkownika "c2". Parametry:
+2018.01.25 - 22:47.22.2287  >>>  Wyjątek w komunikacji z klientem "c2": Index was outside the bounds of the array.
+2018.01.25 - 22:47.23.4676  >>>  Rozłączono klienta "c2".
+2018.01.25 - 22:48.49.8100  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 22:48.49.8100  >>> Wyłączono NMS.

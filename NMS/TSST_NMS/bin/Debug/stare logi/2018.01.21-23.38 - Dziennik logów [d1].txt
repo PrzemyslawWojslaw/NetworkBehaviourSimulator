@@ -1,0 +1,17 @@
+Dziennik logów domeny "d1" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:36.17.2825  >>>  Uruchomiono NMS domeny "d1".
+2018.01.21 - 23:36.17.2981  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:36.29.7855  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:36.29.7950  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.21 - 23:36.29.7985  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.21 - 23:36.33.8053  >>>  Rozłączono klienta "d2".
+2018.01.21 - 23:37.43.9423  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:37.43.9423  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.21 - 23:37.43.9579  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.21 - 23:37.43.9579  >>>  Wyjątek w komuniakcji z klientem "d2": An item with the same key has already been added.
+2018.01.21 - 23:37.43.9892  >>>  Rozłączono klienta "d2".
+2018.01.21 - 23:38.46.5957  >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:38.46.5957  >>> Wyłączono NMS.

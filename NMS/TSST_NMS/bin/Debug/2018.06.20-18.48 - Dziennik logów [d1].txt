@@ -1,0 +1,6 @@
+Dziennik logów domeny "d1" z dnia 20.06.2018
+=====================================
+2018.06.20 - 18:48.21.9731  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.06.20 - 18:48.22.2189  >>>  Włączono nasłuchiwanie.
+2018.06.20 - 18:48.25.7724  >>> Wyłączono nasłuchiwanie.
+2018.06.20 - 18:48.25.7724  >>> Wyłączono NMS.

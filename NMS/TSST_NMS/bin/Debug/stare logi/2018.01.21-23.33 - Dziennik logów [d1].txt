@@ -1,0 +1,20 @@
+Dziennik logów domeny "d1" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:33.44.5928  >>>  Uruchomiono NMS domeny "d1".
+2018.01.21 - 23:33.44.6084  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:33.46.1709  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:33.46.1866  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d3
+2018.01.21 - 23:33.46.1866  >>>  Urządzenie przedstawiło się jako: "d3".
+2018.01.21 - 23:33.47.3572  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:33.47.3872  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.21 - 23:33.47.3973  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.21 - 23:33.48.4905  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:33.48.5326  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.21 - 23:33.48.6451  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.21 - 23:33.52.9787  >>>  Wyjątek w komuniakcji z klientem "cloud": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.21 - 23:33.53.0528  >>>  Rozłączono klienta "cloud".
+2018.01.21 - 23:33.58.1969  >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:33.58.1969  >>> Wyłączono NMS.

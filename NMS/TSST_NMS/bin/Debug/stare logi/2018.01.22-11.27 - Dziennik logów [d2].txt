@@ -1,0 +1,36 @@
+Dziennik logów domeny "d2" z dnia 22.01.2018
+=====================================
+2018.01.22 - 11:25.02.2664  >>>  Uruchomiono NMS domeny "d2".
+2018.01.22 - 11:25.02.2795  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 11:25.10.3182  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 11:25.10.7990  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.22 - 11:25.11.2008  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.22 - 11:25.12.0964  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 11:25.12.4852  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.22 - 11:25.12.7689  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 11:25.12.8895  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.22 - 11:25.13.4864  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.22 - 11:25.13.4899  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.22 - 11:25.37.5180  >>>  NCC : Otrzymano żądanie zestawienia połączenia od domeny "d1". Parametry:
+	ID routera brzegowego wejściowego: 1, ID routera brzegowego wyjściowego: 2
+	Przepustowość: 50 Gbit/s
+2018.01.22 - 11:25.38.7128  >>>  NCC -> CC : Żądanie zestawienia połączenia między routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 11:25.39.0881  >>>  CC -> RC : Żądanie znalezienia ścieżki pomiędzy routerami brzegowymi o ID 1 oraz 2.
+2018.01.22 - 11:25.39.4358  >>>  Ścieżka: r6=Add|1|0|1|
+r5=Add|1|0|1|2
+r4=Add|c2|0|1
+
+2018.01.22 - 11:25.39.8917  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 11:25.40.3004  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routerami brzegowymi o ID 1 oraz 2 ścieżką otrzymaną od RC.
+2018.01.22 - 11:25.40.3125  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 11:25.40.4846  >>>  Urządzeniu "r5" przesłano wiadomość:
+2018.01.22 - 11:25.40.4871  >>>  Urządzeniu "r6" przesłano wiadomość:
+2018.01.22 - 11:25.40.5366  >>>  Urządzeniu "r4" przesłano wiadomość:
+Add|1|0|1|3
+Add|1|0|1|3
+Add|1|0|1|2
+2018.01.22 - 11:27.10.3909  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 11:27.10.3909  >>> Wyłączono NMS.

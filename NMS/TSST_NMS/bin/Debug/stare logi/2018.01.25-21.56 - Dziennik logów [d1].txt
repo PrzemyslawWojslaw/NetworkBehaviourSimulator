@@ -1,0 +1,132 @@
+Dziennik logów domeny "d1" z dnia 25.01.2018
+=====================================
+2018.01.25 - 21:53.34.8298  >>>  Uruchomiono węzeł sterujący domeny "d1".
+2018.01.25 - 21:53.34.8833  >>>  Włączono nasłuchiwanie.
+2018.01.25 - 21:53.53.9089  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:53.53.9359  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|s1
+2018.01.25 - 21:53.53.9399  >>>  Urządzenie przedstawiło się jako: "s1".
+2018.01.25 - 21:53.54.7355  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:53.54.9267  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.25 - 21:53.54.9307  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.25 - 21:53.55.8038  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:53.56.1445  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.25 - 21:53.56.2671  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.25 - 21:53.56.7465  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:53.57.2318  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.25 - 21:53.57.2438  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.25 - 21:53.58.5958  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:53.59.5419  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.25 - 21:53.59.5540  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.25 - 21:54.01.6439  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:54.03.5363  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.25 - 21:54.04.2508  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.25 - 21:54.08.4573  >>>  Połączono z nowym urządzeniem.
+2018.01.25 - 21:54.11.5950  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.25 - 21:54.11.6010  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.25 - 21:54.19.4251  >>>  Od urządenia "c1" otrzymano wiadomość:
+	CallRequest|c2|25 Gbit/s|12,5 GBoda
+2018.01.25 - 21:54.19.4746  >>>  NCC : CallRequest() - Otrzymano żądanie zestawienia połączenia od użytkownika "c1". Parametry:
+	Adresat = "c2", Przepustowość = 25 Gbit/s
+	Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.25 - 21:54.19.4986  >>>  NCC -> P : Policy() - Żądanie uwierzytelnienia i autoryzacji użytkownika "c1".
+2018.01.25 - 21:54.19.5061  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c1" potwierdzone.
+2018.01.25 - 21:54.19.5167  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.25 - 21:54.19.5277  >>>  D -> NCC : Adres nadawcy "c1" = 1101, adres odbiorcy "c2" = 2101
+2018.01.25 - 21:54.19.5387  >>>  NCC -> CC : ConnectionRequest() - Żądanie zestawienia połączenia. Parametry:
+	Użytkownik początkowy (nadawca) = "1101", Użytkownik końcowy = "2101
+	Przepustowość = 25 Gbit/s, Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.25 - 21:54.19.5802  >>>  CC -> RC : RouteTableQuery() - Żądanie znalezienia ścieżki. Parametry:
+	od użytkownika =1101, do użytkownika =2101
+	przepustowość =25 Gbit/s , ilość podnośnych = 1, przepływność symbolowa =12,5 GBoda, kodowanie QAM
+2018.01.25 - 21:54.19.6252  >>>  RC : Wykryto, że użytkownik docelowy należy do innej domeny ("d2").
+2018.01.25 - 21:54.19.6397  >>>  NCC : CallCoordination() - wysłano żądanie koordynacji do domeny "d2" z parametrami:
+	Użytkownik docelowy = "c2", Przepustowość = 25 Gbit/s
+	ID routera brzegowego nadawcy (tej domeny) = 1, ID routera brzegowego adresata = 1
+2018.01.25 - 21:54.19.6963  >>>  NCC : Zakończono koordynację połączenia. Otrzymano informacje o dostępnych w domenie "d2" szczelinach.
+2018.01.25 - 21:54.19.7428  >>>  Ścieżka i komendy konfiguracji:
+	c2===1|0|1|
+	d2===1|0|1|2
+	r3===3|0|1|2
+	s1===1|0|1|2
+	r1===1|0|1|3
+	c1===c2|0|1
+
+2018.01.25 - 21:54.19.7573  >>>  RC -> CC : Odnaleziono ścieżkę:
+	c1 -> r1 -> s1 -> r3 -> d2 -> c2
+2018.01.25 - 21:54.19.7953  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia od użytkownika "c1" do użytkownika "c2" ścieżką otrzymaną od RC.
+2018.01.25 - 21:54.19.8169  >>>  Urządzeniu "c1" przesłano wiadomośc:
+	Add|c2|0|1
+2018.01.25 - 21:54.19.8269  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 21:54.20.0715  >>>  Urządzeniu "d2" przesłano wiadomość:
+2018.01.25 - 21:54.23.0417  >>>  Urządzeniu "r3" przesłano wiadomość:
+2018.01.25 - 21:54.23.0462  >>>  Urządzeniu "r1" przesłano wiadomość:
+CallCoordination|d1|1|d2|1|c2|25 Gbit/s
+2018.01.25 - 21:54.23.0542  >>>  Urządzeniu "s1" przesłano wiadomość:
+2018.01.25 - 21:54.23.5005  >>>  Urządzeniu "d2" przesłano wiadomość:
+Add|1|0|1|2
+Add|3|0|1|2
+Add|1|0|1|3
+Add|1|0|1|2
+2018.01.25 - 21:54.23.8497  >>>  Od urządenia "d2" otrzymano wiadomość:
+	ExYupNMS|d1|1|d2|1
+2018.01.25 - 21:54.25.0146  >>>  Od urządenia "s1" otrzymano wiadomość:
+	SubYupNMS|1|0|1|2
+2018.01.25 - 21:54.41.5363  >>>  Od urządenia "c1" otrzymano wiadomość:
+	CallRequest|c2|25 Gbit/s|12,5 GBoda
+2018.01.25 - 21:54.41.5528  >>>  NCC : CallRequest() - Otrzymano żądanie zestawienia połączenia od użytkownika "c1". Parametry:
+	Adresat = "c2", Przepustowość = 25 Gbit/s
+	Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.25 - 21:54.41.6289  >>>  NCC -> P : Policy() - Żądanie uwierzytelnienia i autoryzacji użytkownika "c1".
+2018.01.25 - 21:54.41.6629  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c1" potwierdzone.
+2018.01.25 - 21:54.41.6919  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.25 - 21:54.41.7244  >>>  D -> NCC : Adres nadawcy "c1" = 1101, adres odbiorcy "c2" = 2101
+2018.01.25 - 21:54.41.7555  >>>  NCC -> CC : ConnectionRequest() - Żądanie zestawienia połączenia. Parametry:
+	Użytkownik początkowy (nadawca) = "1101", Użytkownik końcowy = "2101
+	Przepustowość = 25 Gbit/s, Przepustowość symbolowa podnośnej = 12,5 GBoda
+2018.01.25 - 21:54.46.5839  >>>  CC -> RC : RouteTableQuery() - Żądanie znalezienia ścieżki. Parametry:
+	od użytkownika =1101, do użytkownika =2101
+	przepustowość =25 Gbit/s , ilość podnośnych = 1, przepływność symbolowa =12,5 GBoda, kodowanie QAM
+2018.01.25 - 21:54.46.9907  >>>  RC : Wykryto, że użytkownik docelowy należy do innej domeny ("d2").
+2018.01.25 - 21:54.47.1708  >>>  NCC : CallCoordination() - wysłano żądanie koordynacji do domeny "d2" z parametrami:
+2018.01.25 - 21:54.47.7617  >>>  Urządzeniu "d2" przesłano wiadomość:
+	Użytkownik docelowy = "c2", Przepustowość = 25 Gbit/s
+CallCoordination|d1|1|d2|1|c2|25 Gbit/s
+	ID routera brzegowego nadawcy (tej domeny) = 1, ID routera brzegowego adresata = 1
+2018.01.25 - 21:54.48.9481  >>>  Od urządenia "d2" otrzymano wiadomość:
+2018.01.25 - 21:54.49.4274  >>>  NCC : Zakończono koordynację połączenia. Otrzymano informacje o dostępnych w domenie "d2" szczelinach.
+	ExYupNMS|d1|1|d2|1
+2018.01.25 - 21:54.49.6571  >>>  Ścieżka i komendy konfiguracji:
+	c2===1|2|3|
+	d2===1|2|3|2
+	r3===3|2|3|2
+	s1===1|2|3|2
+	r1===1|2|3|3
+	c1===c2|2|3
+
+2018.01.25 - 21:54.49.6621  >>>  RC -> CC : Odnaleziono ścieżkę:
+	c1 -> r1 -> s1 -> r3 -> d2 -> c2
+2018.01.25 - 21:54.53.9611  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia od użytkownika "c1" do użytkownika "c2" ścieżką otrzymaną od RC.
+2018.01.25 - 21:54.54.1643  >>>  Urządzeniu "c1" przesłano wiadomośc:
+	Add|c2|2|3
+2018.01.25 - 21:54.54.1758  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.25 - 21:54.54.3419  >>>  Urządzeniu "r1" przesłano wiadomość:
+2018.01.25 - 21:54.54.3784  >>>  Urządzeniu "s1" przesłano wiadomość:
+2018.01.25 - 21:54.54.3784  >>>  Urządzeniu "d2" przesłano wiadomość:
+2018.01.25 - 21:54.54.4020  >>>  Urządzeniu "r3" przesłano wiadomość:
+Add|1|2|3|3
+Add|1|2|3|2
+Add|1|2|3|2
+Add|3|2|3|2
+2018.01.25 - 21:54.55.2255  >>>  Od urządenia "s1" otrzymano wiadomość:
+	SubYupNMS|1|2|3|2
+2018.01.25 - 21:54.55.2375  >>>  Od urządenia "s1" otrzymano wiadomość:
+	Add|1|0|1|2
+2018.01.25 - 21:56.25.7929  >>> Wyłączono nasłuchiwanie.
+2018.01.25 - 21:56.25.7929  >>> Wyłączono NMS.

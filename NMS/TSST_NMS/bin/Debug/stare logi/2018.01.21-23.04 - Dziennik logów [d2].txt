@@ -1,0 +1,18 @@
+Dziennik logów domeny "d2" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:03.27.2980  >>>  Uruchomiono NMS domeny "d2".
+2018.01.21 - 23:03.27.3090  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:03.36.2934  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:03.36.6101  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r4
+2018.01.21 - 23:03.36.7668  >>>  Urządzenie przedstawiło się jako: "r4".
+2018.01.21 - 23:03.38.1462  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:03.38.3164  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:03.38.3164  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r6
+2018.01.21 - 23:03.38.3219  >>>  Urządzenie przedstawiło się jako: "r6".
+2018.01.21 - 23:03.38.7397  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r5
+2018.01.21 - 23:03.39.2950  >>>  Urządzenie przedstawiło się jako: "r5".
+2018.01.21 - 23:04.39.0955 >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:04.39.0955 >>> Wyłączono NMS.

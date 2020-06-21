@@ -1,0 +1,68 @@
+Dziennik logów domeny "d1" z dnia 22.01.2018
+=====================================
+2018.01.22 - 00:19.39.8189  >>>  Uruchomiono NMS domeny "d1".
+2018.01.22 - 00:19.39.8345  >>>  Włączono nasłuchiwanie.
+2018.01.22 - 00:19.40.3189  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:19.40.3345  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.22 - 00:19.40.3345  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.22 - 00:19.41.5858  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:19.41.5933  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d3
+2018.01.22 - 00:19.41.6233  >>>  Urządzenie przedstawiło się jako: "d3".
+2018.01.22 - 00:19.43.0398  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:19.43.0744  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.22 - 00:19.43.1634  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.22 - 00:19.45.6312  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:19.45.9469  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.22 - 00:19.46.0715  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.22 - 00:19.49.4013  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:19.49.4989  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.22 - 00:19.49.5034  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.22 - 00:19.53.0139  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:19.53.5178  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.22 - 00:19.53.5233  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.22 - 00:20.35.2489  >>>  Połączono z nowym urządzeniem.
+2018.01.22 - 00:20.36.1530  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.22 - 00:20.36.1580  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.22 - 00:20.53.9211  >>>  Od urządenia "c1" otrzymano wiadomość:
+	CallRequest|c2|50 Gbit/s
+2018.01.22 - 00:20.53.9266  >>>  NCC : Otrzymano żądanie zestawienia połączenia od użytkownika "c1". Parametry:
+	Adresat = "c2", Przepustowość = 50 Gbit/s
+2018.01.22 - 00:20.53.9507  >>>  NCC -> P : Żądanie uwierzytelnienia i autoryzacji użytkownika "c1".
+2018.01.22 - 00:20.53.9572  >>>  P -> NCC : Tożsamość i uprawnienia użytkownika "c1" potwierdzone.
+2018.01.22 - 00:20.53.9662  >>>  NCC -> CC :  Żądanie zestawienia połączenia od użytkownika "c1" do użytkownika "c2" z przepustowością 50 Gbit/s.
+2018.01.22 - 00:20.53.9752  >>>  CC -> RC :  Żądanie znalezienia ścieżki od użytkownika "c1" do użytkownika "c2" z przepustowością 50 Gbit/s.
+2018.01.22 - 00:20.53.9872  >>>  RC : Wykryto, że użytkownik docelowy należy do innej domeny. Rozpoczęto koordynację połączenia z domeną "d3".
+2018.01.22 - 00:20.53.9982  >>>  RC : Zakończono koordynację połączenia. Otrzymano informacje o dostępnych w domenie "d3" szczelinach.
+2018.01.22 - 00:20.54.4205  >>>  Urządzeniu "d3" przesłano wiadomość:
+CallCoordination|d1|1|d3|1|c2|50 Gbit/s
+2018.01.22 - 00:20.54.5081  >>>  Ścieżka:
+	r3=Add|3|0|1|2
+	d2=Add|1|0|1|2
+	r1=Add|1|0|1|3
+	c=Add|c2|0|1
+
+2018.01.22 - 00:20.54.5111  >>>  RC -> CC : Odnaleziono ścieżkę.
+2018.01.22 - 00:20.54.7582  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia od użytkownika "c1" do użytkownika "c2" ścieżką otrzymaną od RC.
+2018.01.22 - 00:20.54.7788  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.22 - 00:20.55.2081  >>>  Urządzeniu "d2" przesłano wiadomość:
+2018.01.22 - 00:20.55.2081  >>>  Urządzeniu "r3" przesłano wiadomość:
+2018.01.22 - 00:20.55.2081  >>>  Urządzeniu "r1" przesłano wiadomość:
+Add|3|0|1|2
+Add|1|0|1|3
+Connect|d1|1|2|50 Gbit/s
+2018.01.22 - 00:21.20.6441  >>>  Wyjątek w komuniakcji z klientem "d2": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.22 - 00:21.20.6661  >>>  Rozłączono klienta "d2".
+2018.01.22 - 00:21.21.7364  >>>  Wyjątek w komuniakcji z klientem "d3": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.22 - 00:21.21.7564  >>>  Rozłączono klienta "d3".
+2018.01.22 - 00:23.28.7205  >>>  Rozłączono klienta "r1".
+2018.01.22 - 00:23.28.7486  >>>  Rozłączono klienta "r2".
+2018.01.22 - 00:23.28.7536  >>>  Rozłączono klienta "r3".
+2018.01.22 - 00:23.32.6608  >>> Wyłączono nasłuchiwanie.
+2018.01.22 - 00:23.32.6608  >>> Wyłączono NMS.

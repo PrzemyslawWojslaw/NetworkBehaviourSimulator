@@ -1,0 +1,41 @@
+Dziennik logów domeny "d1" z dnia 21.01.2018
+=====================================
+2018.01.21 - 23:13.44.9137  >>>  Uruchomiono NMS domeny "d1".
+2018.01.21 - 23:13.44.9257  >>>  Włączono nasłuchiwanie.
+2018.01.21 - 23:13.45.2779  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:13.45.2890  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d2
+2018.01.21 - 23:13.45.2930  >>>  Urządzenie przedstawiło się jako: "d2".
+2018.01.21 - 23:13.45.2940  >>>  Bleh : d2|-
+2018.01.21 - 23:13.46.5646  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:13.46.5891  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|d3
+2018.01.21 - 23:13.46.5931  >>>  Urządzenie przedstawiło się jako: "d3".
+2018.01.21 - 23:13.46.5946  >>>  Bleh : d3|-
+2018.01.21 - 23:13.47.9746  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:13.48.0241  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|cloud
+2018.01.21 - 23:13.48.0276  >>>  Urządzenie przedstawiło się jako: "cloud".
+2018.01.21 - 23:13.48.0291  >>>  Bleh : cloud|-
+2018.01.21 - 23:13.49.1850  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:13.49.3476  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r1
+2018.01.21 - 23:13.49.3521  >>>  Urządzenie przedstawiło się jako: "r1".
+2018.01.21 - 23:13.49.3536  >>>  Bleh : r1|-
+2018.01.21 - 23:13.53.1708  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:13.53.4980  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r2
+2018.01.21 - 23:13.53.6016  >>>  Urządzenie przedstawiło się jako: "r2".
+2018.01.21 - 23:13.53.6041  >>>  Bleh : r2|-
+2018.01.21 - 23:13.57.4173  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:13.58.1273  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r3
+2018.01.21 - 23:13.58.1483  >>>  Urządzenie przedstawiło się jako: "r3".
+2018.01.21 - 23:13.58.1508  >>>  Bleh : r3|-
+2018.01.21 - 23:14.04.9632  >>>  Połączono z nowym urządzeniem.
+2018.01.21 - 23:14.06.3516  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c1
+2018.01.21 - 23:14.06.5003  >>>  Urządzenie przedstawiło się jako: "c1".
+2018.01.21 - 23:14.06.5028  >>>  Bleh : c1|-
+2018.01.21 - 23:14.42.6969 >>> Wyłączono nasłuchiwanie.
+2018.01.21 - 23:14.42.6969 >>> Wyłączono NMS.

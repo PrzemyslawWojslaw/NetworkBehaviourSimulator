@@ -1,0 +1,68 @@
+Dziennik logów domeny "d2" z dnia 26.01.2018
+=====================================
+2018.01.26 - 12:38.04.4252  >>>  Uruchomiono węzeł sterujący domeny "d2".
+2018.01.26 - 12:38.04.4792  >>>  Włączono nasłuchiwanie.
+2018.01.26 - 12:38.16.6248  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 12:38.17.3589  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r7
+2018.01.26 - 12:38.17.3624  >>>  Urządzenie przedstawiło się jako: "r7".
+2018.01.26 - 12:38.21.2546  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 12:38.21.7430  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r8
+2018.01.26 - 12:38.21.7465  >>>  Urządzenie przedstawiło się jako: "r8".
+2018.01.26 - 12:38.21.7630  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 12:38.21.9616  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|r9
+2018.01.26 - 12:38.23.3501  >>>  Urządzenie przedstawiło się jako: "r9".
+2018.01.26 - 12:38.24.8147  >>>  Połączono z nowym urządzeniem.
+2018.01.26 - 12:38.26.0205  >>>  Od urządenia "-" otrzymano wiadomość:
+	Hello|c2
+2018.01.26 - 12:38.26.5089  >>>  Urządzenie przedstawiło się jako: "c2".
+2018.01.26 - 12:38.42.7349  >>>  NCC : Otrzymano żądanie koordynacji połączenia od domeny "d1". Parametry:
+	ID routera brzegowego nadawcy: 1, ID routera brzegowego adresata (tej domeny): 1
+	Użytkownik docelowy: c2, Przepustowość: 50 Gbit/s
+2018.01.26 - 12:38.42.7534  >>>  NCC -> D : Translacja nazw użytkowników na adresy.
+2018.01.26 - 12:38.42.7584  >>>  D -> NCC : Adres użytkownika docelowego ("c2") to 2101.
+2018.01.26 - 12:38.42.7644  >>>  NCC -> CC : Żądanie koordynacji połączenia z domeną "d1" z powyższymi parametrami.
+2018.01.26 - 12:38.42.7724  >>>  CC -> RC : Żądanie koordynacji topologii (dostępnych szczelin) z domeną "d1".
+2018.01.26 - 12:38.42.7804  >>>  RC : Wymieniono informacja o dostępnych szczelinach z domeną "d1".
+2018.01.26 - 12:38.43.2087  >>>  Ścieżka: 	c2===1|0|3|
+	r9===2|0|3|3
+	r8===1|0|3|2
+	r7===c2|0|3
+
+2018.01.26 - 12:38.43.2122  >>>  RC -> CC : Odnaleziono ścieżkę.
+	r7 -> r8 -> r9 -> c2
+2018.01.26 - 12:38.43.2328  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby połącznia pomiędzy routeram brzegowym o ID 1 oraz użytkownikiem "c2" ścieżką otrzymaną od RC.
+2018.01.26 - 12:38.43.2468  >>>  Urządzeniu "r8" przesłano wiadomość:
+2018.01.26 - 12:38.43.2493  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.26 - 12:38.43.2628  >>>  Wysłano głównemu węzłowi wiadomość:
+	ExYupNMS|d1|1|d2|1
+2018.01.26 - 12:38.43.5990  >>>  Urządzeniu "r9" przesłano wiadomość:
+2018.01.26 - 12:38.43.6020  >>>  Urządzeniu "r7" przesłano wiadomość:
+2018.01.26 - 12:38.43.6566  >>>  Urządzeniu "c2" przesłano wiadomość:
+	r8::Add|1|0|3|2
+	r9::Add|2|0|3|3
+	r7::Add|1|0|3|3
+	c2::CallAccept|c1
+2018.01.26 - 12:39.14.2018  >>>  Wyjątek w komunikacji z klientem "r8": Unable to read beyond the end of the stream.
+2018.01.26 - 12:39.14.5700  >>>  LRM -> CC : Wykryto niesprawność węzła "r8"!
+2018.01.26 - 12:39.14.5860  >>>  CC -> RC : Żądanie znalezienia drogi zastępczej dla węzła "r8".
+2018.01.26 - 12:39.14.6046  >>>  RC -> CC : Odnaleziono nową ścieżkę:
+2018.01.26 - 12:39.14.6216  >>>  CC -> LRM : Żądanie alokacji zasobów na potrzeby przejścia połączenia na nową ścieżkę.
+2018.01.26 - 12:39.14.6481  >>>  LRM -> RC : Uaktualnienie informacji o stanie podsieci.
+2018.01.26 - 12:39.14.7742  >>>  Urządzeniu "r9" przesłano wiadomość:
+2018.01.26 - 12:39.14.8227  >>>  Urządzeniu "r7" przesłano wiadomość:
+2018.01.26 - 12:39.14.8362  >>>  Rozłączono klienta "r8".
+	r9::Remove|2|0|3|3
+2018.01.26 - 12:39.15.0519  >>>  Urządzeniu "r9" przesłano wiadomość:
+	r9::Add|1|0|3|3
+	r7::Remove|1|0|3|3
+2018.01.26 - 12:39.15.1254  >>>  Urządzeniu "r7" przesłano wiadomość:
+	r7::Add|1|0|3|2
+2018.01.26 - 12:39.34.2050  >>>  Wyjątek w komunikacji z klientem "r9": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.26 - 12:39.34.6628  >>>  Rozłączono klienta "r9".
+2018.01.26 - 12:39.38.9143  >>>  Wyjątek w komunikacji z klientem "r7": Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+2018.01.26 - 12:39.39.7464  >>>  Rozłączono klienta "r7".
+2018.01.26 - 12:40.13.6620  >>> Wyłączono nasłuchiwanie.
+2018.01.26 - 12:40.13.6620  >>> Wyłączono NMS.
