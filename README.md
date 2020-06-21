@@ -7,5 +7,5 @@ Network consist of four components:
 - Node - optical switch,
 - Cloud - representation of cables and links.
 
-Cloud and each NMS require configuration file and parameter (name) passed to executable file. Each node and client require parameters: domanin number and their ID number.
+Cloud and each NMS require configuration file and parameter (name) passed to executable file. Each node and client require parameters: domain number and ID number.
 Directory "presentation" contains example of composed network.
